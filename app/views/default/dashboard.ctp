@@ -38,7 +38,7 @@ function s($text)
       <?php endif ?>
       <?php break ?>
     <?php case 'photo' : ?>
-      <font size="2"><a href="<?php echo $post['photo-url'][0] ?>"><img src="<?php echo $post['photo-url'][3] ?>" width="220px"></a></font><br>
+      <font size="2"><a href="<?php echo $post['photo-url'][0] ?>"><img src="<?php echo $post['photo-url'][4] ?>" width="100px"></a></font><br>
       <?php if (array_key_exists('photo-caption', $post)) : ?>
         <font size="2"><?php echo s($post['photo-caption']) ?></font><br>
       <?php endif ?>
